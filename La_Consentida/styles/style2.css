@@ -1,0 +1,35 @@
+ /* Estilos para la tabla */
+ #tablaPedidos {
+    font-size: 14px;
+}
+
+#tablaPedidos th,
+#tablaPedidos td {
+    text-align: center;
+    padding: 8px;
+}
+
+#tablaPedidos th {
+    background-color: #4e73df;
+    color: white;
+}
+
+#tablaPedidos tbody tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
+
+/* Estilos para los íconos de acciones */
+#tablaPedidos .acciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tablaPedidos .acciones i {
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+#tablaPedidos .acciones i:hover {
+    color: #4e73df;
+}

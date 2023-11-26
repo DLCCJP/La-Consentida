@@ -1,0 +1,55 @@
+/* Estilos para la tabla */
+#tablaUsuarios {
+  font-size: 14px;
+}
+
+#tablaUsuarios th,
+#tablaUsuarios td {
+  text-align: center;
+}
+
+#tablaUsuarios th {
+  background-color: #4e73df;
+  color: white;
+}
+
+#tablaUsuarios tbody tr:nth-child(even) {
+  background-color: #f8f9fc;
+}
+
+/* Estilos para los íconos de acciones */
+#tablaUsuarios .acciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tablaUsuarios .acciones i {
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+#tablaUsuarios .acciones i:hover {
+  color: #4e73df;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+/* MODAL */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
